@@ -41,7 +41,7 @@ function App() {
     changePassword,
     changeUsername,
     resetAll
-  } = useFormState("oi");
+  } = useFormState();
 
   return (
     <div className="App">
