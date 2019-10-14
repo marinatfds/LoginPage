@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.form > input {
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+}
+
+.buttons > button {
+  margin-left: 10px;
+}
